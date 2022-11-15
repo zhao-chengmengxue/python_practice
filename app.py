@@ -51,5 +51,14 @@
 """运用formated string,要在开头先打一个f‘’，然后在句中需要赋值的地方用卷括号括起来"""
 
 course = "Python for beginners"
-print(len(course))
-print(course.upper())
+# print(len(course))
+# print(course.upper())
+# print(course.lower())
+# print(course)
+# print(course.find('Beg'))
+"""case sensitive,注意大小写，返回-1就是没找到,从0开始"""
+# print(course.replace('beginners','absolute beginners'))
+#
+# print('Python' in course)
+"""返回布尔值"""
+
